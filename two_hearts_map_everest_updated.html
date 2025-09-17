@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d1530741cca1d9801375b988ae46fa24 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d1530741cca1d9801375b988ae46fa24" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d1530741cca1d9801375b988ae46fa24 = L.map(
+                "map_d1530741cca1d9801375b988ae46fa24",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f23d7008e3899b8f093302ecff380480 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d1530741cca1d9801375b988ae46fa24);
+        
+    
+            var marker_cae163713195c5429e84ed2d9b7b279e = L.marker(
+                [39.7684, -86.1581],
+                {}
+            ).addTo(map_d1530741cca1d9801375b988ae46fa24);
+        
+    
+            var icon_fbd03b5d02a9bd7972d4e1813e3c1c75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cae163713195c5429e84ed2d9b7b279e.setIcon(icon_fbd03b5d02a9bd7972d4e1813e3c1c75);
+        
+    
+        var popup_441bd8edc6d0a03490ee6650664c0c60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d610c6b2147bd3319a35391503647dc = $(`<div id="html_3d610c6b2147bd3319a35391503647dc" style="width: 100.0%; height: 100.0%;">Where I’m missing you from 💙</div>`)[0];
+            popup_441bd8edc6d0a03490ee6650664c0c60.setContent(html_3d610c6b2147bd3319a35391503647dc);
+        
+
+        marker_cae163713195c5429e84ed2d9b7b279e.bindPopup(popup_441bd8edc6d0a03490ee6650664c0c60)
+        ;
+
+        
+    
+    
+            marker_cae163713195c5429e84ed2d9b7b279e.bindTooltip(
+                `<div>
+                     📍 Indianapolis — Where I’m missing you from 💙
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d8f753e6d5ca47b1b6c6fc8256c29ba = L.marker(
+                [26.2389, 73.0243],
+                {}
+            ).addTo(map_d1530741cca1d9801375b988ae46fa24);
+        
+    
+            var icon_7936e4b06b836591322d7892c38a646d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "heart", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2d8f753e6d5ca47b1b6c6fc8256c29ba.setIcon(icon_7936e4b06b836591322d7892c38a646d);
+        
+    
+        var popup_db61452107cfe01b09d6d117a3e4f55f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8b4f8f9cc703b0a485cb30b66d4201e = $(`<div id="html_d8b4f8f9cc703b0a485cb30b66d4201e" style="width: 100.0%; height: 100.0%;">Where my heart lives ❤️</div>`)[0];
+            popup_db61452107cfe01b09d6d117a3e4f55f.setContent(html_d8b4f8f9cc703b0a485cb30b66d4201e);
+        
+
+        marker_2d8f753e6d5ca47b1b6c6fc8256c29ba.bindPopup(popup_db61452107cfe01b09d6d117a3e4f55f)
+        ;
+
+        
+    
+    
+            marker_2d8f753e6d5ca47b1b6c6fc8256c29ba.bindTooltip(
+                `<div>
+                     📍 Jodhpur — Where my heart lives ❤️
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_37178210a0245d00a1fc8a6890987efd = L.polyline(
+                [[39.7684, -86.1581], [26.2389, 73.0243]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_d1530741cca1d9801375b988ae46fa24);
+        
+    
+            var feature_group_3ff0ce339c2a2107f04562e71e16a8e1 = L.featureGroup(
+                {}
+            ).addTo(map_d1530741cca1d9801375b988ae46fa24);
+        
+    
+            var marker_21321d3f128c0032d014930b48e3e44f = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_8f02e3f5caa21b8a913b49a8b5783f36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_21321d3f128c0032d014930b48e3e44f.setIcon(icon_8f02e3f5caa21b8a913b49a8b5783f36);
+        
+    
+        var popup_02653fbe84a3e4b22fd6ce9bafbd3b06 = L.popup({"maxWidth": 300});
+
+        
+            var html_329bc6bf9e955905e6a93d1c32e72783 = $(`<div id="html_329bc6bf9e955905e6a93d1c32e72783" style="width: 100.0%; height: 100.0%;"><b>New York City, USA</b><br>Suna hai bohot acchi skyline hai. We'll explore this together on a helicopter</div>`)[0];
+            popup_02653fbe84a3e4b22fd6ce9bafbd3b06.setContent(html_329bc6bf9e955905e6a93d1c32e72783);
+        
+
+        marker_21321d3f128c0032d014930b48e3e44f.bindPopup(popup_02653fbe84a3e4b22fd6ce9bafbd3b06)
+        ;
+
+        
+    
+    
+            marker_21321d3f128c0032d014930b48e3e44f.bindTooltip(
+                `<div>
+                     🌍 New York City, USA — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16ad287be76c64ff5dade41f862686a3 = L.marker(
+                [46.8523, -121.7603],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_af7a2cbc5b2a46f5e0c636a1fbb7f44c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16ad287be76c64ff5dade41f862686a3.setIcon(icon_af7a2cbc5b2a46f5e0c636a1fbb7f44c);
+        
+    
+        var popup_0ae7b87658655b15a67f3080158de9ec = L.popup({"maxWidth": 300});
+
+        
+            var html_45a81b28cd23fff028d88a17c18efe48 = $(`<div id="html_45a81b28cd23fff028d88a17c18efe48" style="width: 100.0%; height: 100.0%;"><b>Mt. Rainier National Park, USA</b><br>This place feels like another world. This is like Kashmir, obviously not that good but still friends ko kashmir bolke dikhayenge :p</div>`)[0];
+            popup_0ae7b87658655b15a67f3080158de9ec.setContent(html_45a81b28cd23fff028d88a17c18efe48);
+        
+
+        marker_16ad287be76c64ff5dade41f862686a3.bindPopup(popup_0ae7b87658655b15a67f3080158de9ec)
+        ;
+
+        
+    
+    
+            marker_16ad287be76c64ff5dade41f862686a3.bindTooltip(
+                `<div>
+                     🌍 Mt. Rainier National Park, USA — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_264008c3ca2f9658c13277529c7068e5 = L.marker(
+                [37.8651, -119.5383],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_64e367c14dcf01dc7af867267a1be2a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_264008c3ca2f9658c13277529c7068e5.setIcon(icon_64e367c14dcf01dc7af867267a1be2a0);
+        
+    
+        var popup_7a3c99814b1333bc54633efc252c60bf = L.popup({"maxWidth": 300});
+
+        
+            var html_5ddfd7218e120f8aab2c27aa1d6bc406 = $(`<div id="html_5ddfd7218e120f8aab2c27aa1d6bc406" style="width: 100.0%; height: 100.0%;"><b>Yosemite National Park, USA</b><br>One of the best national park in US. Aaj tak nahi gya and waiting to explore this with you.</div>`)[0];
+            popup_7a3c99814b1333bc54633efc252c60bf.setContent(html_5ddfd7218e120f8aab2c27aa1d6bc406);
+        
+
+        marker_264008c3ca2f9658c13277529c7068e5.bindPopup(popup_7a3c99814b1333bc54633efc252c60bf)
+        ;
+
+        
+    
+    
+            marker_264008c3ca2f9658c13277529c7068e5.bindTooltip(
+                `<div>
+                     🌍 Yosemite National Park, USA — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbc460dc37aba89b8db916a6fbba9b54 = L.marker(
+                [36.1069, -112.1129],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_47c84761b0628a6e10ef8117a0b8d227 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbc460dc37aba89b8db916a6fbba9b54.setIcon(icon_47c84761b0628a6e10ef8117a0b8d227);
+        
+    
+        var popup_9b1617e6dd8bb290bbc1cdaead7b8e0d = L.popup({"maxWidth": 300});
+
+        
+            var html_9f661dc1614f33a144712f87b3eadf22 = $(`<div id="html_9f661dc1614f33a144712f87b3eadf22" style="width: 100.0%; height: 100.0%;"><b>Grand Canyon National Park, USA</b><br>One of the most photogenic places. Yaha pe photos leke we'll put it on our walls in our room.</div>`)[0];
+            popup_9b1617e6dd8bb290bbc1cdaead7b8e0d.setContent(html_9f661dc1614f33a144712f87b3eadf22);
+        
+
+        marker_bbc460dc37aba89b8db916a6fbba9b54.bindPopup(popup_9b1617e6dd8bb290bbc1cdaead7b8e0d)
+        ;
+
+        
+    
+    
+            marker_bbc460dc37aba89b8db916a6fbba9b54.bindTooltip(
+                `<div>
+                     🌍 Grand Canyon National Park, USA — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bb8f98d994c1043539b8af55b811a63 = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_ec8c37d8e37756b60f580781b749c3ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4bb8f98d994c1043539b8af55b811a63.setIcon(icon_ec8c37d8e37756b60f580781b749c3ca);
+        
+    
+        var popup_c673e3b46e0c6467ddd989fb15b6e2c3 = L.popup({"maxWidth": 300});
+
+        
+            var html_982f2e466d5a29f8aa9d87db43a76d3f = $(`<div id="html_982f2e466d5a29f8aa9d87db43a76d3f" style="width: 100.0%; height: 100.0%;"><b>Rome, Italy</b><br>I know you have been here but tumhari dp dekh ke mera bohot mann hai yaha jane ka</div>`)[0];
+            popup_c673e3b46e0c6467ddd989fb15b6e2c3.setContent(html_982f2e466d5a29f8aa9d87db43a76d3f);
+        
+
+        marker_4bb8f98d994c1043539b8af55b811a63.bindPopup(popup_c673e3b46e0c6467ddd989fb15b6e2c3)
+        ;
+
+        
+    
+    
+            marker_4bb8f98d994c1043539b8af55b811a63.bindTooltip(
+                `<div>
+                     🌍 Rome, Italy — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77d5fa9f699bb830ec319b8436577807 = L.marker(
+                [50.8503, 4.3517],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_f19792ccbe40946df42cd089ba9d94aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77d5fa9f699bb830ec319b8436577807.setIcon(icon_f19792ccbe40946df42cd089ba9d94aa);
+        
+    
+        var popup_a1cd4d377f8ea64fe1f69f1ebd70d8c2 = L.popup({"maxWidth": 300});
+
+        
+            var html_504d4586f824a1dde40aa8e2f0756194 = $(`<div id="html_504d4586f824a1dde40aa8e2f0756194" style="width: 100.0%; height: 100.0%;"><b>Brussels, Belgium</b><br>Just added this kyuki mera friend yaha rehta hai. Don't know much about it though.</div>`)[0];
+            popup_a1cd4d377f8ea64fe1f69f1ebd70d8c2.setContent(html_504d4586f824a1dde40aa8e2f0756194);
+        
+
+        marker_77d5fa9f699bb830ec319b8436577807.bindPopup(popup_a1cd4d377f8ea64fe1f69f1ebd70d8c2)
+        ;
+
+        
+    
+    
+            marker_77d5fa9f699bb830ec319b8436577807.bindTooltip(
+                `<div>
+                     🌍 Brussels, Belgium — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a10082e9fe33860cdbbc6817115ec1ad = L.marker(
+                [48.8566, 2.3522],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_8ae47dfead32adf745e2c459b14ed6ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a10082e9fe33860cdbbc6817115ec1ad.setIcon(icon_8ae47dfead32adf745e2c459b14ed6ae);
+        
+    
+        var popup_d6c270d5102d98c6131bce49fd10021a = L.popup({"maxWidth": 300});
+
+        
+            var html_20afd6ae3e32adc148581f5c70b02cc1 = $(`<div id="html_20afd6ae3e32adc148581f5c70b02cc1" style="width: 100.0%; height: 100.0%;"><b>Paris, France</b><br>Paris, coz why not. It is a lover's paradise. Eiffel tower ke top mai jayenge</div>`)[0];
+            popup_d6c270d5102d98c6131bce49fd10021a.setContent(html_20afd6ae3e32adc148581f5c70b02cc1);
+        
+
+        marker_a10082e9fe33860cdbbc6817115ec1ad.bindPopup(popup_d6c270d5102d98c6131bce49fd10021a)
+        ;
+
+        
+    
+    
+            marker_a10082e9fe33860cdbbc6817115ec1ad.bindTooltip(
+                `<div>
+                     🌍 Paris, France — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc8cd49d30455c3058d32ce2a12b4726 = L.marker(
+                [52.3676, 4.9041],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_a35491de81823ba4b1fc867cc74dc125 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fc8cd49d30455c3058d32ce2a12b4726.setIcon(icon_a35491de81823ba4b1fc867cc74dc125);
+        
+    
+        var popup_a639c361171d6594dd5fb08efec17f29 = L.popup({"maxWidth": 300});
+
+        
+            var html_5a4fcf8dc5fd882626201198831fac56 = $(`<div id="html_5a4fcf8dc5fd882626201198831fac56" style="width: 100.0%; height: 100.0%;"><b>Amsterdam, Netherlands</b><br>Bohot movies mai dekha hai. Yaha cycles rent pe lenge and we'll create the scene from PK where we are just riding around the canal in our bikes.</div>`)[0];
+            popup_a639c361171d6594dd5fb08efec17f29.setContent(html_5a4fcf8dc5fd882626201198831fac56);
+        
+
+        marker_fc8cd49d30455c3058d32ce2a12b4726.bindPopup(popup_a639c361171d6594dd5fb08efec17f29)
+        ;
+
+        
+    
+    
+            marker_fc8cd49d30455c3058d32ce2a12b4726.bindTooltip(
+                `<div>
+                     🌍 Amsterdam, Netherlands — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14430c0911c79b0edcb252f8286d8959 = L.marker(
+                [34.1526, 77.577],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_51075dbf4ba5d4c64294dc5e76cb6eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_14430c0911c79b0edcb252f8286d8959.setIcon(icon_51075dbf4ba5d4c64294dc5e76cb6eaf);
+        
+    
+        var popup_ce007a9d4784327217322bafdba12dbd = L.popup({"maxWidth": 300});
+
+        
+            var html_29e69754df70e5657068c03cf4b9dce6 = $(`<div id="html_29e69754df70e5657068c03cf4b9dce6" style="width: 100.0%; height: 100.0%;"><b>Ladakh, India</b><br>Yaha toh bullet rent krke jaana hai. One of my dream destinations.</div>`)[0];
+            popup_ce007a9d4784327217322bafdba12dbd.setContent(html_29e69754df70e5657068c03cf4b9dce6);
+        
+
+        marker_14430c0911c79b0edcb252f8286d8959.bindPopup(popup_ce007a9d4784327217322bafdba12dbd)
+        ;
+
+        
+    
+    
+            marker_14430c0911c79b0edcb252f8286d8959.bindTooltip(
+                `<div>
+                     🌍 Ladakh, India — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12d3217fc551c4bd4d0dc70413147261 = L.marker(
+                [27.533, 88.5122],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_10148434277defe5576f9fb1b655e49f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12d3217fc551c4bd4d0dc70413147261.setIcon(icon_10148434277defe5576f9fb1b655e49f);
+        
+    
+        var popup_11c675de6f796c5683299d7cde6ab91a = L.popup({"maxWidth": 300});
+
+        
+            var html_da6afe572fb1eec8471c8142e1332f67 = $(`<div id="html_da6afe572fb1eec8471c8142e1332f67" style="width: 100.0%; height: 100.0%;"><b>Sikkim, India</b><br>7 sisters have a brother called Sikkim. It is one of the most beautiful places because of its nature and culture as well. Aur fascinating ye hai ki Sikkim became part of India in 1970s.</div>`)[0];
+            popup_11c675de6f796c5683299d7cde6ab91a.setContent(html_da6afe572fb1eec8471c8142e1332f67);
+        
+
+        marker_12d3217fc551c4bd4d0dc70413147261.bindPopup(popup_11c675de6f796c5683299d7cde6ab91a)
+        ;
+
+        
+    
+    
+            marker_12d3217fc551c4bd4d0dc70413147261.bindTooltip(
+                `<div>
+                     🌍 Sikkim, India — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5afb510cd69482f3c80db2cdc0cebac9 = L.marker(
+                [9.2876, 79.3129],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_f10d645944d8921ba5b0e8149b48ed44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5afb510cd69482f3c80db2cdc0cebac9.setIcon(icon_f10d645944d8921ba5b0e8149b48ed44);
+        
+    
+        var popup_dc21203d8e4bf4d0c5feb35afda661e1 = L.popup({"maxWidth": 300});
+
+        
+            var html_b6a19f97048d8c577623b17f429cc2b7 = $(`<div id="html_b6a19f97048d8c577623b17f429cc2b7" style="width: 100.0%; height: 100.0%;"><b>Rameswaram, India</b><br>You and I both want to visit this place. 4 dhaam mai se ek</div>`)[0];
+            popup_dc21203d8e4bf4d0c5feb35afda661e1.setContent(html_b6a19f97048d8c577623b17f429cc2b7);
+        
+
+        marker_5afb510cd69482f3c80db2cdc0cebac9.bindPopup(popup_dc21203d8e4bf4d0c5feb35afda661e1)
+        ;
+
+        
+    
+    
+            marker_5afb510cd69482f3c80db2cdc0cebac9.bindTooltip(
+                `<div>
+                     🌍 Rameswaram, India — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b136b36c8288b4f55ebc88569450ba7 = L.marker(
+                [30.7346, 79.0669],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_b604834e5dd38f235f5ed66946284fe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8b136b36c8288b4f55ebc88569450ba7.setIcon(icon_b604834e5dd38f235f5ed66946284fe0);
+        
+    
+        var popup_5cbc50bee7cab915d9375634042c21c1 = L.popup({"maxWidth": 300});
+
+        
+            var html_b6d7e85c3c0eac8d371934b4b27db39d = $(`<div id="html_b6d7e85c3c0eac8d371934b4b27db39d" style="width: 100.0%; height: 100.0%;"><b>Kedarnath, India</b><br>Paidal kedarnath jake mahadev ke darshan. Iss se acchha kya hoga</div>`)[0];
+            popup_5cbc50bee7cab915d9375634042c21c1.setContent(html_b6d7e85c3c0eac8d371934b4b27db39d);
+        
+
+        marker_8b136b36c8288b4f55ebc88569450ba7.bindPopup(popup_5cbc50bee7cab915d9375634042c21c1)
+        ;
+
+        
+    
+    
+            marker_8b136b36c8288b4f55ebc88569450ba7.bindTooltip(
+                `<div>
+                     🌍 Kedarnath, India — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c8ac301a623598037727df1a842347a = L.marker(
+                [28.0026, 86.8528],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_ea2d70b1886720d77cc4647a47b9aab5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c8ac301a623598037727df1a842347a.setIcon(icon_ea2d70b1886720d77cc4647a47b9aab5);
+        
+    
+        var popup_85bca63dbc0f4f53ea749adf35065102 = L.popup({"maxWidth": 300});
+
+        
+            var html_7a43eb3aa189e8d5861c20359e3d6a95 = $(`<div id="html_7a43eb3aa189e8d5861c20359e3d6a95" style="width: 100.0%; height: 100.0%;"><b>Mount Everest Base Camp, Nepal</b><br>I knew about this trek since I was a kid. This is a 10 day trek and one of my childhood dreams. Would love to explore this trek with you!<3</div>`)[0];
+            popup_85bca63dbc0f4f53ea749adf35065102.setContent(html_7a43eb3aa189e8d5861c20359e3d6a95);
+        
+
+        marker_5c8ac301a623598037727df1a842347a.bindPopup(popup_85bca63dbc0f4f53ea749adf35065102)
+        ;
+
+        
+    
+    
+            marker_5c8ac301a623598037727df1a842347a.bindTooltip(
+                `<div>
+                     🌍 Mount Everest Base Camp, Nepal — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1727b3f49de962e5c3706e8b6d0089b3 = L.marker(
+                [30.653, 81.3119],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_51dc45995966d11491384b58e19980a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1727b3f49de962e5c3706e8b6d0089b3.setIcon(icon_51dc45995966d11491384b58e19980a8);
+        
+    
+        var popup_bc75bf07ff11b389d8e2c0f4b1568fea = L.popup({"maxWidth": 300});
+
+        
+            var html_ff4bbfd1c3a47279096b4b15245767c2 = $(`<div id="html_ff4bbfd1c3a47279096b4b15245767c2" style="width: 100.0%; height: 100.0%;"><b>Kailash Mansarovar, Tibet</b><br>Hopefully we can make it possible. Will require assistance from Modi Ji and Xi Jinping though :p</div>`)[0];
+            popup_bc75bf07ff11b389d8e2c0f4b1568fea.setContent(html_ff4bbfd1c3a47279096b4b15245767c2);
+        
+
+        marker_1727b3f49de962e5c3706e8b6d0089b3.bindPopup(popup_bc75bf07ff11b389d8e2c0f4b1568fea)
+        ;
+
+        
+    
+    
+            marker_1727b3f49de962e5c3706e8b6d0089b3.bindTooltip(
+                `<div>
+                     🌍 Kailash Mansarovar, Tibet — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44d67d1159681503b30560ebdb7d548b = L.marker(
+                [48.21, 16.3738],
+                {}
+            ).addTo(feature_group_3ff0ce339c2a2107f04562e71e16a8e1);
+        
+    
+            var icon_8a695178ed865a73932a1b5977bc6b13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44d67d1159681503b30560ebdb7d548b.setIcon(icon_8a695178ed865a73932a1b5977bc6b13);
+        
+    
+        var popup_bb64eaafcc6bcb4875eda97dfe412600 = L.popup({"maxWidth": 300});
+
+        
+            var html_b0989a498e624a55279049adf8b5ebdf = $(`<div id="html_b0989a498e624a55279049adf8b5ebdf" style="width: 100.0%; height: 100.0%;"><b>Vienna, Austria</b><br>This will probably be our first city in Europe together, thanks to the special person in my life who happens to be a robotics genius!!!</div>`)[0];
+            popup_bb64eaafcc6bcb4875eda97dfe412600.setContent(html_b0989a498e624a55279049adf8b5ebdf);
+        
+
+        marker_44d67d1159681503b30560ebdb7d548b.bindPopup(popup_bb64eaafcc6bcb4875eda97dfe412600)
+        ;
+
+        
+    
+    
+            marker_44d67d1159681503b30560ebdb7d548b.bindTooltip(
+                `<div>
+                     🌍 Vienna, Austria — Tap to read our dream 💖
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_49baab896153bcd7e22ce3097ae12be5 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f23d7008e3899b8f093302ecff380480,
+                },
+                overlays :  {
+                    "Dream Destinations" : feature_group_3ff0ce339c2a2107f04562e71e16a8e1,
+                },
+            };
+            L.control.layers(
+                layer_control_49baab896153bcd7e22ce3097ae12be5.base_layers,
+                layer_control_49baab896153bcd7e22ce3097ae12be5.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_d1530741cca1d9801375b988ae46fa24);
+        
+</script>
+</html>
